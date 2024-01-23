@@ -15,6 +15,7 @@ public class HomeController {
 		
 		model.addAttribute("name", "이명용" );
 		model.addAttribute("nick", "lee" );
+		model.addAttribute("gender", "M" );
 		
 		return "home";
 	}
